@@ -11,7 +11,6 @@ var timer = 30;
 var penalty = 3;
 var scoreList = document.getElementById('highscore')
 
-
 startBtn.addEventListener("click", startQuiz) 
 btn1.addEventListener("click", checkAnswer)
 btn1.addEventListener("click", setNextQuestion)
@@ -19,10 +18,6 @@ btn2.addEventListener("click", checkAnswer)
 btn2.addEventListener("click", setNextQuestion)
 btn3.addEventListener("click", checkAnswer)
 btn3.addEventListener("click", setNextQuestion)
-
-
-
-
 
 
 
@@ -53,10 +48,10 @@ function countdown() {
     window.timeMessage = document.getElementById("countdown")
 
      window.timeInterval = setInterval(function() {
-        if (timeLeft > 1) {
-            window.timeMessage.textContent = "Time: " + timeLeft;
-            timeLeft--;
-        } else if (timeLeft === 0) {
+        if (timer > 1) {
+            window.timeMessage.textContent = "Time: " + timer;
+            timer--;
+        } else if (timer === 0) {
             clearInterval(window.timeInterval);
             window.timeMessage.textContent = "Time's up!";
         }
