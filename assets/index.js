@@ -41,6 +41,30 @@ var quizQuestions = [
 ]
 
 
+function setNextQ() {
+    if(i===quizQuestions.length){
+        clearInterval(window.timeInterval)
+        var userInit = prompt("Enter your initials to save your score!")
+        localStorage.setItem(userInit, timer)
+        questionContainerEl.classList.add("hide");
+        window.timeMessage.classList.add("hide");
+        
+        // Loop through local storage
+        for (index=0;index<localStorage.length;index++){
+        var li = document.createElement('li')
+        scoreList.appendChild(li)
+        li.textContent = localStorage.key(index) + ': ' + localStorage.getItem(localStorage.key(index))
+        }
+        return
+    }
+    questionEl.textContent = quizQuestions[i].question
+    btn1.innerText = quizQuestions[i].options[0]
+    btn2.innerText = quizQuestions[i].options[1]
+    btn3.innerText = quizQuestions[i].options[2]
+    i++
+    console.log(i)
+}
+
 // Timer function
 var timer = document.getElementById("countdown");
 
