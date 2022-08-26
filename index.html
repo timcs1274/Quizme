@@ -7,8 +7,32 @@
 
 <body>
     <h1>Quiz</h1>
-    <br>
-    <button>Start</button>
+    <p>This is an application intended to quiz you on very basic web development questions! You will be asked a series of 
+        questions and alocated 30 seconds to answer each question. Be sure to leave your name on the Highscores!</p>
+    
+
+    <div class="container">
+        <div id="questionContainer" class="hide">
+            <div id="questions"></div>
+            <div id="answerArr"></div>
+                <button class="btn" id="btn1">1</button>
+                <button class="btn" id="btn2">2</button>
+                <button class="btn" id="btn3">3</button>
+        </div>
+        <div class="controls">
+            <button class="startBtn" id="startQuiz">Start Quiz</button>
+        </div>
+    </div>
+
+    <div id="countdown" class="timer"></div>
+
+ 
+    <section id="quiz">
+
+    </section>
+    <div>
+        <ul id="highscore"></ul>
+    </div>
 
 
 <script src="/assets/index.js"></script>
