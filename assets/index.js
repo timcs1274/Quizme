@@ -95,3 +95,11 @@ function countdown() {
         }
     }, 1000);
 }
+
+function checkAnswer(e) {
+    
+    if (e.target.innerText !== quizQuestions[i-1].answer) {
+        timer -= penalty
+    } 
+    
+}
