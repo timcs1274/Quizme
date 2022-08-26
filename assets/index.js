@@ -40,7 +40,21 @@ var quizQuestions = [
     },
 ]
 
+// Start quiz!
+function startQuiz() {
+    console.log("Quiz has started");
+    startBtn.classList.add("hide");
+    questionContainerEl.classList.remove("hide");
+    document.querySelector('.intro').classList.add("hide");
+    scoreList.classList.remove("hide");
 
+    countdown();
+    setNextQ();
+} 
+
+
+
+// Set the next questions
 function setNextQ() {
     if(i===quizQuestions.length){
         clearInterval(window.timeInterval)
