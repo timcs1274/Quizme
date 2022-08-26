@@ -44,3 +44,21 @@ var quizQuestions = [
         answer: 'An HTML file',
     },
 ]
+
+
+// Timer function
+var timer = document.getElementById("countdown");
+
+function countdown() {
+    window.timeMessage = document.getElementById("countdown")
+
+     window.timeInterval = setInterval(function() {
+        if (timeLeft > 1) {
+            window.timeMessage.textContent = "Time: " + timeLeft;
+            timeLeft--;
+        } else if (timeLeft === 0) {
+            clearInterval(window.timeInterval);
+            window.timeMessage.textContent = "Time's up!";
+        }
+    }, 1000);
+}
