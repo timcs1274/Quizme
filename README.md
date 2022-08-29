@@ -2,9 +2,9 @@
 
 ## Description
 
-**
+*Test your knowledge!*
 
-This fun project was a way to display my growing javascript skills. This is an app which asks the user a series of questions within a certain amount of time. With each incorrect answer, 3 seconds are taken away from the timer. Try to complete the quiz as fast as possible and see what the fastest time you can get is!
+This fun project was a way to display my growing javascript skills. This is an app which asks the user a series of questions within a certain amount of time. With each incorrect answer, 3 seconds are taken away from the timer. Try to complete the quiz as fast as possible and see what the fastest time you can get is! View the [Deployed page here!](https://timcs1274.github.io/Quizme/)
 
 
 ## Learning Points
