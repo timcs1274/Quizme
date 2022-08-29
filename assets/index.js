@@ -13,11 +13,11 @@ var scoreList = document.getElementById('highscore')
 
 startBtn.addEventListener("click", startQuiz) 
 btn1.addEventListener("click", checkAnswer)
-btn1.addEventListener("click", setNextQuestion)
+btn1.addEventListener("click", setNextQ)
 btn2.addEventListener("click", checkAnswer)
-btn2.addEventListener("click", setNextQuestion)
+btn2.addEventListener("click", setNextQ)
 btn3.addEventListener("click", checkAnswer)
-btn3.addEventListener("click", setNextQuestion)
+btn3.addEventListener("click", setNextQ)
 
 
 
@@ -39,6 +39,8 @@ var quizQuestions = [
         answer: 'An HTML file',
     },
 ]
+
+var i = 0
 
 // Start quiz!
 function startQuiz() {

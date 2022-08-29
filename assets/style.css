@@ -1,0 +1,41 @@
+body {
+    background-color: rgb(230, 215, 215);
+}
+body h1 {
+    text-align: center;
+    padding-top: 15px;
+    padding-bottom: 50px;
+}
+body p {
+    text-align: center;
+    padding-bottom: 50px;
+}
+.questionContainer {
+    display: flex;
+    justify-content: center;
+}
+.hide {
+    display: none;
+}
+.btn {
+
+    margin: 8px;
+    padding: 10px;
+
+    background: rgb(95, 211, 195);
+    outline: none;
+}
+.btn:hover {
+    background-color: rgb(41, 138, 194);
+}
+.controls {
+    display: flex;
+    justify-content: center;
+}
+#countdown{
+    position: relative;
+    top: -16px;
+    right: -700px;
+}
+
+
