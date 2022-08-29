@@ -82,7 +82,7 @@ function setNextQ() {
 }
 
 // Timer function
-var timer = document.getElementById("countdown");
+var timerFunction = document.getElementById("countdown");
 
 function countdown() {
     window.timeMessage = document.getElementById("countdown")

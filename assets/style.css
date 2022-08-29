@@ -1,22 +1,27 @@
 body {
     background-color: rgb(230, 215, 215);
 }
+
 body h1 {
     text-align: center;
     padding-top: 15px;
     padding-bottom: 50px;
 }
+
 body p {
     text-align: center;
     padding-bottom: 50px;
 }
+
 .questionContainer {
     display: flex;
     justify-content: center;
 }
+
 .hide {
     display: none;
 }
+
 .btn {
 
     margin: 8px;
@@ -25,17 +30,20 @@ body p {
     background: rgb(95, 211, 195);
     outline: none;
 }
+
 .btn:hover {
     background-color: rgb(41, 138, 194);
 }
+
 .controls {
     display: flex;
     justify-content: center;
 }
-#countdown{
-    position: relative;
-    top: -16px;
-    right: -700px;
+
+ul {
+    background-color: rgb(87, 180, 192);
+    text-align: center;
+    list-style: none;
 }
 
 
