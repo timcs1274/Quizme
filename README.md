@@ -25,12 +25,5 @@ Feel free to contact me if you have any questions!
 
 My email: timcs1274@gmail.com
 
-<details>
-  <summary>Spoiler warning</summary>
-  yo
-  <summary>Spoiler warning</summary>
-  yo2
-  
-  
-
-</details>
+<details><summary>Chapter 1</summary>yo</details>
+<details><summary>Chapter 2</summary>yo2</details>
