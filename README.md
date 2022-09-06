@@ -25,6 +25,6 @@ Feel free to contact me if you have any questions!
 
 My email: timcs1274@gmail.com
 
-```{toggle}
+{toggle}
  click to show
- ```
+
