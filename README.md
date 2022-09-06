@@ -29,12 +29,8 @@ My email: timcs1274@gmail.com
   <summary>Spoiler warning</summary>
   yo
   <summary>Spoiler warning</summary>
-  yo1
-  <summary>Spoiler warning</summary>
   yo2
-  <summary>Spoiler warning</summary>
-  yo3
-  Spoiler text. Note that it's important to have a space after the summary tag. You should be able to write any markdown you want inside the `<details>` tag... just make sure you close `<details>` afterward.
+  
   
 
 </details>
