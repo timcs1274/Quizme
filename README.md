@@ -25,6 +25,8 @@ Feel free to contact me if you have any questions!
 
 My email: timcs1274@gmail.com
 
-{toggle}
- click to show
+{admonition} Click the button to reveal!
+:class: dropdown
+Some hidden toggle content!
 
+testing
